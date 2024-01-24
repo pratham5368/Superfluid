@@ -1,5 +1,5 @@
 {
-  "name": "SuperfluidLayout",
+  "name": "superfluid",
   "version": "1.0.0",
   "description": "",
   "default": "dist/index.html",
@@ -9,17 +9,7 @@
     "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/codrops/SuperfluidLayout.git"
-  },
-  "keywords": [],
-  "author": "Codrops",
-  "license": "MIT",
-  "homepage": "https://tympanus.net/codrops",
-  "bugs": {
-    "url": "https://github.com/codrops/SuperfluidLayout/issues"
-  },
+
   "devDependencies": {
     "parcel": "latest"
   },
